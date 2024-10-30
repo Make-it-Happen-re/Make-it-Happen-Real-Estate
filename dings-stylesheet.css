@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'IconicFont';
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/fontawesome.min.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+i.icon-car:after,
+i.icon-bath:after,
+i.icon-bed:after,
+i.icon-study:after,
+i.icon-left-arrow:after,
+i.icon-right-arrow:after,
+i.icon-down-arrow:after,
+i.icon-up-arrow:after
+{
+    display: inline-block;
+    font-family: "IconicFont";
+    font-weight: 400;
+    font-style: normal;
+    color: inherit;
+    margin: 0 0.25em;
+    content: '\f1b9'; /* Icono de coche */
+}
+
+i.icon-bath:after
+{
+    content: '\f2cd'; /* Icono de baño */
+}
+
+i.icon-bed:after
+{
+    content: '\f236'; /* Icono de cama */
+}
+
+i.icon-study:after
+{
+    content: '\f5a1'; /* Icono de estudio */
+}
+
+i.icon-left-arrow:after
+{
+    content: '\f104'; /* Icono de flecha izquierda */
+}
+
+i.icon-right-arrow:after
+{
+    content: '\f105'; /* Icono de flecha derecha */
+}
+
+i.icon-down-arrow:after
+{
+    content: '\f106'; /* Icono de flecha abajo */
+    transform: rotate(-90deg);
+}
+
+i.icon-up-arrow:after
+{
+    content: '\f106'; /* Icono de flecha arriba */
+    transform: rotate(90deg);
+}
